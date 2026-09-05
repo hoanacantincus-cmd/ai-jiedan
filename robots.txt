@@ -30,4 +30,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://hoanacantincus-cmd.github.io/ai-jiedan/sitemap.xml
+Sitemap: https://ai-jiedan.pages.dev/sitemap.xml
