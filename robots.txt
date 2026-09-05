@@ -1,0 +1,33 @@
+# 允许所有搜索引擎和 AI 搜索抓取整站（只有一页，没有需要屏蔽的内容）
+User-agent: *
+Allow: /
+
+# 国内搜索
+User-agent: Baiduspider
+Allow: /
+User-agent: Sogou web spider
+Allow: /
+User-agent: 360Spider
+Allow: /
+User-agent: Bytespider
+Allow: /
+
+# AI 搜索 / 大模型引用
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://hoanacantincus-cmd.github.io/ai-jiedan/sitemap.xml

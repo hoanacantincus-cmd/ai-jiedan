@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://hoanacantincus-cmd.github.io/ai-jiedan/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://hoanacantincus-cmd.github.io/ai-jiedan/assets/og-image.png</image:loc>
+      <image:title>我在淘宝的派单群里接单，用 AI 做</image:title>
+    </image:image>
+  </url>
+</urlset>
