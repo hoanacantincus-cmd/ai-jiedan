@@ -192,6 +192,36 @@
     }
   }
 
+  /* ---------- 转发这一页 ---------- */
+
+  var shareBtn = $("#share");
+
+  if (shareBtn) {
+    shareBtn.addEventListener("click", function () {
+      var url = location.origin + location.pathname;
+      var inWeChat = /MicroMessenger/i.test(navigator.userAgent);
+
+      if (inWeChat) {
+        showToast("点右上角“···”，发给朋友或分享到朋友圈");
+        return;
+      }
+      if (navigator.share) {
+        navigator
+          .share({ title: document.title, text: "我在淘宝的派单群里接单，用 AI 做。一单八步讲清楚。", url: url })
+          .catch(function () {});
+        return;
+      }
+      copyText(url).then(
+        function () {
+          showToast("链接已复制，发给朋友吧");
+        },
+        function () {
+          showToast(url);
+        }
+      );
+    });
+  }
+
   /* ---------- 手机端底部悬浮按钮 ---------- */
 
   var sticky = $("#sticky");

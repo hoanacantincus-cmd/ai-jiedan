@@ -1,0 +1,20 @@
+# Cloudflare Pages 响应头。HTML 每次校验、图片缓存一天、样式脚本十分钟，改完部署很快就能看到新版。
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Content-Security-Policy: frame-ancestors 'none'
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/*
+  Cache-Control: public, max-age=86400
+
+/styles.css
+  Cache-Control: public, max-age=600
+
+/script.js
+  Cache-Control: public, max-age=600
+
+/favicon.svg
+  Cache-Control: public, max-age=86400
