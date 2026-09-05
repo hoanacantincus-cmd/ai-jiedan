@@ -528,6 +528,18 @@ summary:focus-visible {
   font-size: 12px;
 }
 
+.hero-guides {
+  margin-top: 14px;
+  color: var(--on-dark-muted);
+  font-size: 13px;
+}
+
+.hero-guides a {
+  color: var(--on-dark-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -1479,6 +1491,158 @@ body.has-sticky {
 
 .toast.is-on {
   opacity: 1;
+}
+
+/* 搜索入口文章页 */
+
+.guide-page {
+  min-height: 100vh;
+  background: var(--bg-alt);
+}
+
+.guide-shell {
+  width: min(calc(100% - 40px), 760px);
+  margin-inline: auto;
+  padding: 64px 0 96px;
+}
+
+.guide-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.guide-breadcrumb a {
+  color: var(--blue);
+}
+
+.guide-kicker {
+  margin-top: 28px;
+  color: var(--wx-deep);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.guide-shell h1 {
+  margin-top: 10px;
+  font-size: clamp(34px, 8vw, 56px);
+  line-height: 1.16;
+}
+
+.guide-lead {
+  margin-top: 20px;
+  padding: 18px 20px;
+  border-left: 4px solid var(--wx);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  color: var(--ink-2);
+  font-size: 19px;
+  line-height: 1.65;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.05);
+}
+
+.guide-meta {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.guide-block {
+  margin-top: 44px;
+}
+
+.guide-block h2 {
+  font-size: 30px;
+}
+
+.guide-block h3 {
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.guide-block p,
+.guide-block li {
+  color: var(--ink-2);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.guide-block p {
+  margin-top: 12px;
+}
+
+.guide-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+  padding-left: 24px;
+  list-style: decimal;
+}
+
+.guide-list--plain {
+  list-style: disc;
+}
+
+.guide-faq {
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.guide-faq details {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.guide-faq summary {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 650;
+}
+
+.guide-faq p {
+  margin-top: 8px;
+}
+
+.guide-cta {
+  display: grid;
+  gap: 12px;
+  margin-top: 48px;
+  padding: 24px;
+  border-radius: var(--radius-sm);
+  background: var(--dark);
+  color: #fff;
+}
+
+.guide-cta p {
+  color: var(--on-dark-2);
+}
+
+.guide-cta .btn {
+  justify-self: start;
+}
+
+.guide-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 28px;
+  font-size: 15px;
+}
+
+.guide-links a {
+  color: var(--blue);
+}
+
+@media (max-width: 480px) {
+  .guide-shell {
+    padding-top: 42px;
+  }
+
+  .guide-lead {
+    font-size: 17px;
+  }
 }
 
 /* 断点 */

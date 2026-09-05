@@ -10,4 +10,22 @@
       <image:title>我在淘宝的派单群里接单，用 AI 做</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://ai-jiedan.pages.dev/taobao-paidan-qun.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-jiedan.pages.dev/ai-jiedan.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-jiedan.pages.dev/ppt-jiedan.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

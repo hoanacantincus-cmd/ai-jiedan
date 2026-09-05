@@ -5,7 +5,8 @@
 
 ## 文件
 
-- `index.html` —— 结构、全部文案、SEO 标签、结构化数据
+- `index.html` —— 首页结构、文案、SEO 标签、结构化数据
+- `taobao-paidan-qun.html`、`ai-jiedan.html`、`ppt-jiedan.html` —— 针对搜索问题的三篇独立指南页，互相内链并纳入 sitemap
 - `styles.css` —— 样式，手机优先
 - `script.js` —— 菜单、复制微信号、二维码、手机端底部悬浮按钮；联系方式在最上面的 `CONTACT`
 - `assets/og-image.png` —— 分享到微信、QQ、微博、搜索结果时显示的大图（1200×630）
@@ -53,7 +54,7 @@ GitHub Pages 在国内经常打不开，Vercel 的默认域名在国内被屏蔽
 
 ## SEO / GEO 做了什么
 
-- `<title>`、description、keywords、canonical、Open Graph、Twitter Card、`author`、`robots` 标签齐全，标题和描述里带“淘宝派单群”“AI 接单”“找店、进群、做单、结算”这些真实搜索词。
+- `<title>`、description、canonical、Open Graph、Twitter Card、`author`、`robots` 标签齐全，标题和描述里带“淘宝派单群”“AI 接单”“找店、进群、做单、结算”这些真实搜索词。
 - JSON-LD 结构化数据：`WebSite`、`Person`（不可言）、`WebPage`、`Article`、`HowTo`（八步）、`FAQPage`（七个问答）。AI 搜索最喜欢引用的就是问答和步骤。
 - `llms.txt`：用一页纸把“这是谁、讲什么、不做什么、怎么进群”写给大模型看。
 - 正文本身就是 GEO 友好的：一个 h1、七个 h2、首屏答案式定义、问答用 `details/summary`，每个概念都有一句能直接引用的定义。

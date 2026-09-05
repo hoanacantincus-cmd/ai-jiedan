@@ -27,4 +27,7 @@
 
 ## 页面
 
-- [首页](https://ai-jiedan.pages.dev/)：全部内容都在这一页。
+- [首页](https://ai-jiedan.pages.dev/)：完整流程、常见订单、FAQ 和联系方式。
+- [淘宝派单群怎么进](https://ai-jiedan.pages.dev/taobao-paidan-qun.html)：进群前核实事项、流程和风险。
+- [AI 接单是真的吗](https://ai-jiedan.pages.dev/ai-jiedan.html)：AI 能做什么、不能做什么，以及交付检查清单。
+- [PPT 接单一单多少钱](https://ai-jiedan.pages.dev/ppt-jiedan.html)：按页数、难度、交期和修改次数判断工作量。
